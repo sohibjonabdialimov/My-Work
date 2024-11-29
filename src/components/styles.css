@@ -1,0 +1,64 @@
+.header_filter::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  height: 100%;
+  width: 1px;
+  background-color: #DCDFE3;
+}
+:root {
+  --body-color: #010c15;
+  --text-color: #7e8294;
+  --hover-color: #ebd9ff;
+  --accent-color: #cc0404;
+  --underline-thickness: 3px;
+
+  color-scheme: dark;
+}
+
+nav {
+  text-transform: uppercase;
+  font: bold 1.1rem sans-serif;
+}
+
+nav a {
+  color: var(--text-color);
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s;
+  position: relative;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: "";
+  scale: 0 1;
+  position: absolute;
+  background: var(--accent-color);
+  transition: 0.3s, translate 0s 0.3s;
+  inset: calc(100% - var(--underline-thickness)) 0 0 0;
+}
+
+nav a:hover {
+  color: var(--hover-color);
+}
+
+nav a:hover::before {
+  translate: 0;
+  transition: 0.3s;
+}
+
+nav:hover a::before {
+  scale: 1;
+}
+
+nav:hover a:hover ~ a::before {
+  translate: -100% 0;
+  transition: 0.2s 0.2s, scale 0s 0.4s;
+}
+
+nav:hover a:has(~ a:hover)::before {
+  translate: 100% 0;
+  transition: 0.2s 0.2s, scale 0s 0.4s;
+}

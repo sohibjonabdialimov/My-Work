@@ -1,0 +1,43 @@
+.auth_form {
+  box-shadow: 0px 10px 24px -12px #00000044;
+  border-radius: 24px;
+}
+.auth_img img {
+  height: calc(100dvh - 48px);
+  width: 100%;
+}
+.auth_label {
+  color: #758195;
+}
+.register_form .ant-form-item-label {
+  padding-bottom: 6px !important;
+}
+
+.otp-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.otp-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.otp-input {
+  width: 50px !important;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #DCDFE3;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+  color: #1D7AFC;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.otp-input:focus {
+  border-color: #007bff;
+}
