@@ -49,11 +49,59 @@ const data = [
     salinity: "125,0",
     potash: "12,0",
   },
+  {
+    id: 7,
+    time: "20-may 2024-yil, 11:31",
+    sath: "240,0",
+    temperature: "24,0",
+    salinity: "125,0",
+    potash: "12,0",
+  },
+  {
+    id: 8,
+    time: "20-may 2024-yil, 11:30",
+    sath: "240,0",
+    temperature: "24,0",
+    salinity: "125,0",
+    potash: "12,0",
+  },
+  {
+    id: 9,
+    time: "20-may 2024-yil, 11:29",
+    sath: "240,0",
+    temperature: "24,0",
+    salinity: "125,0",
+    potash: "12,0",
+  },
+  {
+    id: 10,
+    time: "20-may 2024-yil, 11:28",
+    sath: "240,0",
+    temperature: "24,0",
+    salinity: "125,0",
+    potash: "12,0",
+  },
+  {
+    id: 11,
+    time: "20-may 2024-yil, 11:27",
+    sath: "240,0",
+    temperature: "24,0",
+    salinity: "125,0",
+    potash: "12,0",
+  },
+  {
+    id: 12,
+    time: "20-may 2024-yil, 11:26",
+    sath: "240,0",
+    temperature: "24,0",
+    salinity: "125,0",
+    potash: "12,0",
+  },
 ];
 const HomePage = () => {
   return (
     <div className="py-6">
-      <h1 className="mb-10 font-semibold mt-10">Quduqning ko'rsatgichlari</h1>
+      <h1 className="mb-16 font-semibold mt-24">Quduqning ko'rsatgichlari</h1>
       <table className="container">
         <thead>
           <tr>

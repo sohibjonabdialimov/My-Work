@@ -25,40 +25,24 @@ nav {
 nav a {
   color: var(--text-color);
   cursor: pointer;
-  overflow: hidden;
-  transition: 0.3s;
+  transition: 0.3s borderColor;
   position: relative;
   text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 3px solid transparent;
 }
 
-nav a::before {
-  content: "";
-  scale: 0 1;
-  position: absolute;
-  background: var(--accent-color);
-  transition: 0.3s, translate 0s 0.3s;
-  inset: calc(100% - var(--underline-thickness)) 0 0 0;
+nav a.active{
+  color: var(--accent-color);
+  border-bottom: 3px solid var(--accent-color);
 }
+
 
 nav a:hover {
   color: var(--hover-color);
+  border-bottom: 3px solid var(--accent-color);
 }
 
-nav a:hover::before {
-  translate: 0;
-  transition: 0.3s;
-}
 
-nav:hover a::before {
-  scale: 1;
-}
 
-nav:hover a:hover ~ a::before {
-  translate: -100% 0;
-  transition: 0.2s 0.2s, scale 0s 0.4s;
-}
 
-nav:hover a:has(~ a:hover)::before {
-  translate: 100% 0;
-  transition: 0.2s 0.2s, scale 0s 0.4s;
-}

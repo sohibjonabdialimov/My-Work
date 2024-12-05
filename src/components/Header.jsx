@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <>
       <div className="py-[0.8rem]">
-        <header className="w-full px-6 py-2 flex flex-wrap items-center justify-between rounded-2xl mx-auto gap-4 border-b-white border-[1px]">
+        <header className="w-[80%] fixed top-0 left-[10%] right-[10%] bg-[#1f2739] z-50 px-6 py-2 flex flex-wrap items-center justify-between rounded-2xl mx-auto gap-4 border-b-white border-[1px]">
           <div className="flex items-center gap-6">
             <div className="flex gap-4 items-center">
               <img className="w-[11px] h-[17px]" src={vector1} alt="" />
@@ -56,8 +56,8 @@ const Header = () => {
 
           <nav className="flex items-center gap-6">
             <NavLink to={"/"}>Home</NavLink>
-            <NavLink to={"/"}>Services</NavLink>
-            <NavLink to={"/"}>Pricing</NavLink>
+            <NavLink to={"/services"}>Services</NavLink>
+            <NavLink to={"/pricing"}>Pricing</NavLink>
             <div
               onClick={toggleFullScreen}
               className="cursor-pointer w-[44px] h-[44px] bg-[#E9F2FF] rounded-full flex items-center justify-center"
