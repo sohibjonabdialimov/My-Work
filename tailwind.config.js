@@ -22,7 +22,7 @@ export default {
         23: "23px",
       },
       colors: {
-        main_color: "#1B1D20",
+        main_color: "#222",
         secondary_color: "#758195",
         blue_color: "#1D7AFC"
       },

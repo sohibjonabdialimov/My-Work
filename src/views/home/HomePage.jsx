@@ -1,8 +1,38 @@
+import { Table } from "antd";
 import "./home.css";
+
+const columns = [
+  {
+    title: "O'lchangan vaqti",
+    dataIndex: "time",
+    key: "time",
+    render: (text) => <a>{text}</a>,
+  },
+  {
+    title: "Suv sathi, (sm)",
+    dataIndex: "sath",
+    key: "sath",
+  },
+  {
+    title: <p>Temperatura, (0&#176;C)</p>,
+    dataIndex: "temperature",
+    key: "temperature",
+  },
+  {
+    title: "Sho'rlanganligi, (TDS)",
+    dataIndex: "salinity",
+    key: "salinity",
+  },
+  {
+    title: "Ishqor miqdori, (pH)",
+    dataIndex: "potash",
+    key: "potash",
+  },
+];
 
 const data = [
   {
-    id: 1,
+    key: 1,
     time: "20-may 2024-yil, 11:31",
     sath: "240,0",
     temperature: "24,0",
@@ -10,7 +40,7 @@ const data = [
     potash: "12,0",
   },
   {
-    id: 2,
+    key: 2,
     time: "20-may 2024-yil, 11:30",
     sath: "240,0",
     temperature: "24,0",
@@ -18,80 +48,8 @@ const data = [
     potash: "12,0",
   },
   {
-    id: 3,
+    key: 3,
     time: "20-may 2024-yil, 11:29",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 4,
-    time: "20-may 2024-yil, 11:28",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 5,
-    time: "20-may 2024-yil, 11:27",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 6,
-    time: "20-may 2024-yil, 11:26",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 7,
-    time: "20-may 2024-yil, 11:31",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 8,
-    time: "20-may 2024-yil, 11:30",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 9,
-    time: "20-may 2024-yil, 11:29",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 10,
-    time: "20-may 2024-yil, 11:28",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 11,
-    time: "20-may 2024-yil, 11:27",
-    sath: "240,0",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    id: 12,
-    time: "20-may 2024-yil, 11:26",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -102,41 +60,8 @@ const HomePage = () => {
   return (
     <div className="py-6">
       <h1 className="mb-16 font-semibold mt-24">Quduqning ko'rsatgichlari</h1>
-      <table className="container">
-        <thead>
-          <tr>
-            <th>
-              <h1>O'lchangan vaqti</h1>
-            </th>
-            <th>
-              <h1>Suv sathi, (sm)</h1>
-            </th>
-            <th>
-              <h1>Temperatura, (0&#176;C)</h1>
-            </th>
-            <th>
-              <h1>Sho'rlanganligi, (TDS)</h1>
-            </th>
-            <th>
-              <h1>Ishqor miqdori, (pH)</h1>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item) => {
-            return (
-              <tr key={item.id}>
-                <td>{item.time}</td>
-                <td>{item.sath}</td>
-                <td>{item.temperature}</td>
-                <td>{item.salinity}</td>
-                <td>{item.potash}</td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
 
+      <Table columns={columns} dataSource={data} />
     </div>
   );
 };
