@@ -48,7 +48,7 @@ const data = [
   {
     key: 2,
     time: "20-may 2024-yil, 11:30",
-    sath: "240,0",
+    sath: "245,0",
     temperature: "24,0",
     salinity: "125,0",
     potash: "12,0",
@@ -56,7 +56,7 @@ const data = [
   {
     key: 3,
     time: "20-may 2024-yil, 11:29",
-    sath: "240,0",
+    sath: "250,0",
     temperature: "24,0",
     salinity: "125,0",
     potash: "12,0",
@@ -64,7 +64,7 @@ const data = [
   {
     key: 4,
     time: "20-may 2024-yil, 11:31",
-    sath: "240,0",
+    sath: "260,0",
     temperature: "24,0",
     salinity: "125,0",
     potash: "12,0",
@@ -199,7 +199,6 @@ const data = [
   },
 ];
 
-// 4rem + 2rem + 1.25rem = 7.25rem
 const HomePage = () => {
   return (
     <div className="py-4">
@@ -216,24 +215,25 @@ const HomePage = () => {
             Suv sathi
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">18.6</p>
-          <CustomProgressBar color="#00FF00FF" progress={50} />
+          <CustomProgressBar color="#00FF00FF" progress={90.3} />
         </div>
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
           <h3 className="text-[#a8a8a8] uppercase text-base font-semibold">
             Sho'rlanganligi
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">18.6</p>
-          <CustomProgressBar color="#82A6F6FF" progress={50} />
+          <CustomProgressBar color="#82A6F6FF" progress={45.5} />
         </div>
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
           <h3 className="text-[#a8a8a8] uppercase text-base font-semibold">
             Ishqor miqdori
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">18.6</p>
-          <CustomProgressBar color="#6A9308FF" progress={50} />
+          <CustomProgressBar color="#6A9308FF" progress={67.0} />
         </div>
       </div>
       <div className="main_content_h flex gap-4">
+        
         <div className="scrollbar-custom sm:w-3/4 w-full h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200">
           <Table
             columns={columns}
@@ -274,7 +274,7 @@ const HomePage = () => {
                 <p className="">+998(97) 636-79-75</p>
               </div>
             </div>
-            <div className="px-3 border-b-[1px] border-[#b3b3b3]">
+            <div className="px-3">
               <div className="py-1 flex justify-between text-[#5c5c5c]">
                 <p>Dastur versiyasi:</p>
                 <p className="">+998(97) 636-79-75</p>
