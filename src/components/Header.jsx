@@ -3,7 +3,7 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <header className="bg-[#2F547EFF] py-2 px-12 text-[#fff] flex flex-wrap items-center justify-between">
+      <header className="bg-[#2F547EFF] py-2 h-[4rem] px-6 text-[#fff] flex flex-wrap items-center justify-between">
         <div className="flex items-center gap-6">
           {/* <div className="nav-search rounded-[100px] border-[2px] border-solid border-[#1E1E1E1A] w-[20rem] p-[0.5rem_1rem] bg-[#F1F2F4] flex items-center justify-between gap-2 text-[#1E1E1E99] font-[500] focus:drop-shadow-[0_15px_15px_rgba(0,0,0,0.2)] hover:drop-shadow-[0_5px_5px_rgba(0,0,0,0.15)]">
             <i className="fa-solid fa-magnifying-glass w-[1.125rem] h-[1.125rem]"></i>
