@@ -232,9 +232,9 @@ const HomePage = () => {
           <CustomProgressBar color="#6A9308FF" progress={67.0} />
         </div>
       </div>
-      <div className="main_content_h flex gap-4">
+      <div className="main_content_h flex gap-3">
         
-        <div className="scrollbar-custom sm:w-3/4 w-full h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200">
+        <div className="scrollbar-custom sm:w-2/3 w-full h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200">
           <Table
             columns={columns}
             dataSource={data}
@@ -242,7 +242,7 @@ const HomePage = () => {
             size="middle"
           />
         </div>
-        <div className="sm:w-1/4 w-full h-full flex flex-col gap-2">
+        <div className="sm:w-1/3 w-full h-full flex flex-col gap-2">
           <div className="bg-white rounded-lg">
             <h2 className="text-[#333] font-semibold text-lg text-center py-1 border-b-[1px] border-[#b3b3b3]">
               Qurilma tafsilotlari
@@ -276,12 +276,12 @@ const HomePage = () => {
             </div>
             <div className="px-3">
               <div className="py-1 flex justify-between text-[#5c5c5c]">
-                <p>Dastur versiyasi:</p>
-                <p className="">+998(91) 788-17-77</p>
+                <p>Dastur nomi:</p>
+                <p className="">Gidrogeokimyoviy parametrlarini  o‘lchov qurilmasi</p>
               </div>
               <div className="py-1 flex justify-between text-[#5c5c5c]">
-                <p>Dastur nomi:</p>
-                <p className="">+998(91) 788-17-77</p>
+                <p>Dastur versiyasi:</p>
+                <p className="">5.6.12</p>
               </div>
             </div>
           </div>
