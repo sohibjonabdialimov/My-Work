@@ -252,16 +252,16 @@ const HomePage = () => {
                 <p>Holati:</p>
                 <div className="flex items-center gap-1">
                   <span className="inline-block w-[15px] h-[15px] rounded-full bg-[#f63030]"></span>
-                  <p className="uppercase text-[#f63030]">OFFLine</p>
+                  <p className="uppercase text-[#f63030]">OFFLINE</p>
                 </div>
               </div>
               <div className="flex justify-between text-[#5c5c5c] py-1">
                 <p>Nomi:</p>
-                <p className="">Quduq N=304 Sirg'ali</p>
+                <p className="">Donyorshayx N16</p>
               </div>
               <div className="flex justify-between text-[#5c5c5c] py-1">
                 <p>Telefon:</p>
-                <p className="">+998(97) 636-79-75</p>
+                <p className="">+998(91) 788-17-77</p>
               </div>
               <div className="flex justify-between text-[#5c5c5c] py-1">
                 <p>Chuqurlik sensori:</p>
@@ -271,7 +271,7 @@ const HomePage = () => {
             <div className="px-3 border-b-[1px] border-[#b3b3b3]">
               <div className="flex justify-between text-[#5c5c5c] py-1">
                 <p>Ma'lumotlar yangilanishi:</p>
-                <p className="">+998(97) 636-79-75</p>
+                <p className="">Holatga qarab</p>
               </div>
             </div>
             <div className="px-3">
