@@ -277,11 +277,11 @@ const HomePage = () => {
             <div className="px-3">
               <div className="py-1 flex justify-between text-[#5c5c5c]">
                 <p>Dastur versiyasi:</p>
-                <p className="">+998(97) 636-79-75</p>
+                <p className="">+998(91) 788-17-77</p>
               </div>
               <div className="py-1 flex justify-between text-[#5c5c5c]">
                 <p>Dastur nomi:</p>
-                <p className="">+998(97) 636-79-75</p>
+                <p className="">+998(91) 788-17-77</p>
               </div>
             </div>
           </div>
