@@ -39,7 +39,7 @@ const columns = [
 const data = [
   {
     key: 1,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 10:14",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -47,7 +47,7 @@ const data = [
   },
   {
     key: 2,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 10:18",
     sath: "245,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -55,7 +55,7 @@ const data = [
   },
   {
     key: 3,
-    time: "20-may 2024-yil, 11:29",
+    time: "27-mart 2025-yil, 10:10",
     sath: "250,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -63,7 +63,7 @@ const data = [
   },
   {
     key: 4,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 10:11",
     sath: "260,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -71,7 +71,7 @@ const data = [
   },
   {
     key: 5,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 10:05",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -79,7 +79,7 @@ const data = [
   },
   {
     key: 6,
-    time: "20-may 2024-yil, 11:29",
+    time: "27-mart 2025-yil, 10:15",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -87,7 +87,7 @@ const data = [
   },
   {
     key: 7,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 10:02",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -95,7 +95,7 @@ const data = [
   },
   {
     key: 8,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 10:01",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -103,7 +103,7 @@ const data = [
   },
   {
     key: 9,
-    time: "20-may 2024-yil, 11:29",
+    time: "27-mart 2025-yil, 09:59",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -111,7 +111,7 @@ const data = [
   },
   {
     key: 10,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 09:54",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -119,7 +119,7 @@ const data = [
   },
   {
     key: 11,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 09:50",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -127,7 +127,7 @@ const data = [
   },
   {
     key: 12,
-    time: "20-may 2024-yil, 11:29",
+    time: "27-mart 2025-yil, 09:24",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -135,7 +135,7 @@ const data = [
   },
   {
     key: 13,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 09:10",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -143,7 +143,7 @@ const data = [
   },
   {
     key: 14,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 09:24",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -151,7 +151,7 @@ const data = [
   },
   {
     key: 15,
-    time: "20-may 2024-yil, 11:29",
+    time: "27-mart 2025-yil, 09:20",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -159,7 +159,7 @@ const data = [
   },
   {
     key: 16,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 09:16",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -167,7 +167,7 @@ const data = [
   },
   {
     key: 17,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 09:14",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -175,7 +175,7 @@ const data = [
   },
   {
     key: 18,
-    time: "20-may 2024-yil, 11:29",
+    time: "27-mart 2025-yil, 10:14",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -183,7 +183,7 @@ const data = [
   },
   {
     key: 19,
-    time: "20-may 2024-yil, 11:31",
+    time: "27-mart 2025-yil, 10:14",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
@@ -191,7 +191,7 @@ const data = [
   },
   {
     key: 20,
-    time: "20-may 2024-yil, 11:30",
+    time: "27-mart 2025-yil, 10:14",
     sath: "240,0",
     temperature: "24,0",
     salinity: "125,0",
