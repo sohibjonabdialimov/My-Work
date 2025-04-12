@@ -7,14 +7,14 @@ const columns = [
     title: "№",
     dataIndex: "id",
     key: "id",
-    width: ""
+    width: "",
   },
   {
     title: "O'lchangan vaqti",
     dataIndex: "sana",
     key: "sana",
     render: (text) => <a>{text}</a>,
-    width: "15%"
+    width: "15%",
   },
   {
     title: "Suv sathi, sm",
@@ -43,193 +43,11 @@ const columns = [
   },
 ];
 
-const data = [
-  {
-    key: 1,
-    time: "27-mart 2025-yil, 10:14",
-    sath: "240,0",
-    height: "18.5",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 2,
-    time: "27-mart 2025-yil, 10:18",
-    sath: "245,0",
-    height: "18.56",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 3,
-    time: "27-mart 2025-yil, 10:10",
-    sath: "250,0",
-    height: "18.7",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 4,
-    time: "27-mart 2025-yil, 10:11",
-    sath: "260,0",
-    height: "18.73",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 5,
-    time: "27-mart 2025-yil, 10:05",
-    sath: "240,0",
-    height: "18.83",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 6,
-    time: "27-mart 2025-yil, 10:15",
-    sath: "240,0",
-    height: "18.913",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 7,
-    time: "27-mart 2025-yil, 10:02",
-    sath: "240,0",
-    height: "18.996",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 8,
-    time: "27-mart 2025-yil, 10:01",
-    sath: "240,0",
-    height: "19.079",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 9,
-    time: "27-mart 2025-yil, 09:59",
-    sath: "240,0",
-    height: "19.162",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 10,
-    time: "27-mart 2025-yil, 09:54",
-    sath: "240,0",
-    height: "19.245",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 11,
-    time: "27-mart 2025-yil, 09:50",
-    sath: "240,0",
-    height: "19.328",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 12,
-    time: "27-mart 2025-yil, 09:24",
-    sath: "240,0",
-    height: "19.411",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 13,
-    time: "27-mart 2025-yil, 09:10",
-    sath: "240,0",
-    height: "19.494",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 14,
-    time: "27-mart 2025-yil, 09:24",
-    sath: "240,0",
-    height: "19.577",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 15,
-    time: "27-mart 2025-yil, 09:20",
-    sath: "240,0",
-    height: "19.66",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 16,
-    time: "27-mart 2025-yil, 09:16",
-    sath: "240,0",
-    height: "19.743",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 17,
-    time: "27-mart 2025-yil, 09:14",
-    sath: "240,0",
-    height: "19.826",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 18,
-    time: "27-mart 2025-yil, 10:14",
-    sath: "240,0",
-    height: "19.909",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 19,
-    time: "27-mart 2025-yil, 10:14",
-    sath: "240,0",
-    height: "19.992",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-  {
-    key: 20,
-    time: "27-mart 2025-yil, 10:14",
-    sath: "240,0",
-    height: "20.075",
-    temperature: "24,0",
-    salinity: "125,0",
-    potash: "12,0",
-  },
-];
 const waterData = [
   {
     id: 1,
     sana: "20-may 2024 yil, 9-30",
-    
+
     chuqurlik: 18.5,
     pH: 6.7,
     tC: 15.0,
@@ -239,7 +57,7 @@ const waterData = [
   {
     id: 2,
     sana: "20-may 2024 yil, 15-30",
-    
+
     chuqurlik: 18.56,
     pH: 6.68,
     tC: 15.03,
@@ -249,7 +67,7 @@ const waterData = [
   {
     id: 3,
     sana: "20-may 2024 yil, 21-30",
-    
+
     chuqurlik: 18.7,
     pH: 6.68,
     tC: 15.02,
@@ -259,7 +77,7 @@ const waterData = [
   {
     id: 4,
     sana: "21-may 2024 yil, 2-30",
-    
+
     chuqurlik: 18.83,
     pH: 6.7,
     tC: 15.02,
@@ -269,7 +87,7 @@ const waterData = [
   {
     id: 5,
     sana: "21-may 2024 yil, 9-30",
-    
+
     chuqurlik: 18.913,
     pH: 6.65,
     tC: 15.02,
@@ -279,7 +97,7 @@ const waterData = [
   {
     id: 6,
     sana: "21-may 2024 yil, 15-30",
-    
+
     chuqurlik: 18.996,
     pH: 6.64,
     tC: 15.02,
@@ -289,7 +107,7 @@ const waterData = [
   {
     id: 7,
     sana: "21-may 2024 yil, 21-30",
-    
+
     chuqurlik: 19.079,
     pH: 6.63,
     tC: 15.03,
@@ -299,7 +117,7 @@ const waterData = [
   {
     id: 8,
     sana: "22-may 2024 yil, 2-30",
-    
+
     chuqurlik: 19.162,
     pH: 6.63,
     tC: 15.03,
@@ -309,7 +127,7 @@ const waterData = [
   {
     id: 9,
     sana: "22-may 2024 yil, 9-30",
-    
+
     chuqurlik: 19.245,
     pH: 6.62,
     tC: 15.04,
@@ -319,7 +137,7 @@ const waterData = [
   {
     id: 10,
     sana: "22-may 2024 yil, 15-30",
-    
+
     chuqurlik: 19.411,
     pH: 6.61,
     tC: 15.04,
@@ -329,7 +147,7 @@ const waterData = [
   {
     id: 11,
     sana: "22-may 2024 yil, 21-30",
-    
+
     chuqurlik: 19.494,
     pH: 6.6,
     tC: 15.04,
@@ -339,7 +157,7 @@ const waterData = [
   {
     id: 12,
     sana: "23-may 2024 yil, 2-30",
-    
+
     chuqurlik: 19.577,
     pH: 6.58,
     tC: 15.04,
@@ -349,7 +167,7 @@ const waterData = [
   {
     id: 13,
     sana: "23-may 2024 yil, 9-30",
-    
+
     chuqurlik: 19.66,
     pH: 6.57,
     tC: 15.05,
@@ -359,7 +177,7 @@ const waterData = [
   {
     id: 14,
     sana: "23-may 2024 yil, 15-30",
-    
+
     chuqurlik: 19.743,
     pH: 6.56,
     tC: 15.05,
@@ -369,7 +187,7 @@ const waterData = [
   {
     id: 15,
     sana: "23-may 2024 yil, 21-31",
-    
+
     chuqurlik: 19.826,
     pH: 6.55,
     tC: 15.05,
@@ -379,7 +197,7 @@ const waterData = [
   {
     id: 16,
     sana: "24-may 2024 yil, 2-30",
-    
+
     chuqurlik: 19.909,
     pH: 6.54,
     tC: 15.05,
@@ -389,7 +207,7 @@ const waterData = [
   {
     id: 17,
     sana: "24-may 2024 yil, 9-30",
-    
+
     chuqurlik: 19.992,
     pH: 6.53,
     tC: 15.06,
@@ -399,7 +217,7 @@ const waterData = [
   {
     id: 18,
     sana: "24-may 2024 yil, 15-31",
-    
+
     chuqurlik: 20.074,
     pH: 6.52,
     tC: 15.06,
@@ -409,7 +227,7 @@ const waterData = [
   {
     id: 19,
     sana: "24-may 2024 yil, 21-31",
-    
+
     chuqurlik: 20.157,
     pH: 6.51,
     tC: 15.06,
@@ -419,7 +237,7 @@ const waterData = [
   {
     id: 20,
     sana: "25-may 2024 yil, 2-30",
-    
+
     chuqurlik: 20.24,
     pH: 6.5,
     tC: 15.06,
@@ -429,7 +247,7 @@ const waterData = [
   {
     id: 21,
     sana: "24-may 2024 yil, 9-32",
-    
+
     chuqurlik: 20.324,
     pH: 6.5,
     tC: 15.06,
