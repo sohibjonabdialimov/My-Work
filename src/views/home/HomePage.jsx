@@ -17,7 +17,7 @@ const columns = [
     width: "15%",
   },
   {
-    title: "Suv sathi, sm",
+    title: "Suv sathi, (sm)",
     dataIndex: "chuqurlik",
     key: "chuqurlik",
   },
@@ -88,7 +88,7 @@ const waterData = [
     id: 5,
     sana: "21-may 2024 yil, 9-30",
 
-    chuqurlik: 18.913,
+    chuqurlik: 18.91,
     pH: 6.65,
     tC: 15.02,
     eh: 4.22,
@@ -98,7 +98,7 @@ const waterData = [
     id: 6,
     sana: "21-may 2024 yil, 15-30",
 
-    chuqurlik: 18.996,
+    chuqurlik: 18.99,
     pH: 6.64,
     tC: 15.02,
     eh: 4.22,
@@ -108,7 +108,7 @@ const waterData = [
     id: 7,
     sana: "21-may 2024 yil, 21-30",
 
-    chuqurlik: 19.079,
+    chuqurlik: 19.07,
     pH: 6.63,
     tC: 15.03,
     eh: 4.22,
@@ -118,7 +118,7 @@ const waterData = [
     id: 8,
     sana: "22-may 2024 yil, 2-30",
 
-    chuqurlik: 19.162,
+    chuqurlik: 19.16,
     pH: 6.63,
     tC: 15.03,
     eh: 4.22,
@@ -128,7 +128,7 @@ const waterData = [
     id: 9,
     sana: "22-may 2024 yil, 9-30",
 
-    chuqurlik: 19.245,
+    chuqurlik: 19.24,
     pH: 6.62,
     tC: 15.04,
     eh: 4.23,
@@ -138,7 +138,7 @@ const waterData = [
     id: 10,
     sana: "22-may 2024 yil, 15-30",
 
-    chuqurlik: 19.411,
+    chuqurlik: 19.41,
     pH: 6.61,
     tC: 15.04,
     eh: 4.24,
@@ -148,7 +148,7 @@ const waterData = [
     id: 11,
     sana: "22-may 2024 yil, 21-30",
 
-    chuqurlik: 19.494,
+    chuqurlik: 19.49,
     pH: 6.6,
     tC: 15.04,
     eh: 4.24,
@@ -158,7 +158,7 @@ const waterData = [
     id: 12,
     sana: "23-may 2024 yil, 2-30",
 
-    chuqurlik: 19.577,
+    chuqurlik: 19.57,
     pH: 6.58,
     tC: 15.04,
     eh: 4.25,
@@ -178,7 +178,7 @@ const waterData = [
     id: 14,
     sana: "23-may 2024 yil, 15-30",
 
-    chuqurlik: 19.743,
+    chuqurlik: 19.74,
     pH: 6.56,
     tC: 15.05,
     eh: 4.25,
@@ -188,7 +188,7 @@ const waterData = [
     id: 15,
     sana: "23-may 2024 yil, 21-31",
 
-    chuqurlik: 19.826,
+    chuqurlik: 19.82,
     pH: 6.55,
     tC: 15.05,
     eh: 4.25,
@@ -198,7 +198,7 @@ const waterData = [
     id: 16,
     sana: "24-may 2024 yil, 2-30",
 
-    chuqurlik: 19.909,
+    chuqurlik: 19.90,
     pH: 6.54,
     tC: 15.05,
     eh: 4.26,
@@ -208,7 +208,7 @@ const waterData = [
     id: 17,
     sana: "24-may 2024 yil, 9-30",
 
-    chuqurlik: 19.992,
+    chuqurlik: 19.99,
     pH: 6.53,
     tC: 15.06,
     eh: 4.26,
@@ -218,7 +218,7 @@ const waterData = [
     id: 18,
     sana: "24-may 2024 yil, 15-31",
 
-    chuqurlik: 20.074,
+    chuqurlik: 20.07,
     pH: 6.52,
     tC: 15.06,
     eh: 4.26,
@@ -228,7 +228,7 @@ const waterData = [
     id: 19,
     sana: "24-may 2024 yil, 21-31",
 
-    chuqurlik: 20.157,
+    chuqurlik: 20.15,
     pH: 6.51,
     tC: 15.06,
     eh: 4.26,
@@ -248,7 +248,7 @@ const waterData = [
     id: 21,
     sana: "24-may 2024 yil, 9-32",
 
-    chuqurlik: 20.324,
+    chuqurlik: 20.32,
     pH: 6.5,
     tC: 15.06,
     eh: 4.26,
