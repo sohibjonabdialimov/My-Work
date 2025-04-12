@@ -17,12 +17,7 @@ const columns = [
     width: "15%"
   },
   {
-    title: "Suv sathi, (sm)",
-    dataIndex: "absOtm",
-    key: "absOtm",
-  },
-  {
-    title: "Avtomatlashgan suv sathi o'lchovi, chuqurligi, (h) m",
+    title: "Suv sathi, sm",
     dataIndex: "chuqurlik",
     key: "chuqurlik",
   },
@@ -40,6 +35,11 @@ const columns = [
     title: "Ishqor miqdori, (pH)",
     dataIndex: "pH",
     key: "pH",
+  },
+  {
+    title: "Eh",
+    dataIndex: "eh",
+    key: "eh",
   },
 ];
 
@@ -229,7 +229,7 @@ const waterData = [
   {
     id: 1,
     sana: "20-may 2024 yil, 9-30",
-    absOtm: 540,
+    
     chuqurlik: 18.5,
     pH: 6.7,
     tC: 15.0,
@@ -239,7 +239,7 @@ const waterData = [
   {
     id: 2,
     sana: "20-may 2024 yil, 15-30",
-    absOtm: 540,
+    
     chuqurlik: 18.56,
     pH: 6.68,
     tC: 15.03,
@@ -249,7 +249,7 @@ const waterData = [
   {
     id: 3,
     sana: "20-may 2024 yil, 21-30",
-    absOtm: 540,
+    
     chuqurlik: 18.7,
     pH: 6.68,
     tC: 15.02,
@@ -259,7 +259,7 @@ const waterData = [
   {
     id: 4,
     sana: "21-may 2024 yil, 2-30",
-    absOtm: 540,
+    
     chuqurlik: 18.83,
     pH: 6.7,
     tC: 15.02,
@@ -269,7 +269,7 @@ const waterData = [
   {
     id: 5,
     sana: "21-may 2024 yil, 9-30",
-    absOtm: 540,
+    
     chuqurlik: 18.913,
     pH: 6.65,
     tC: 15.02,
@@ -279,7 +279,7 @@ const waterData = [
   {
     id: 6,
     sana: "21-may 2024 yil, 15-30",
-    absOtm: 540,
+    
     chuqurlik: 18.996,
     pH: 6.64,
     tC: 15.02,
@@ -289,7 +289,7 @@ const waterData = [
   {
     id: 7,
     sana: "21-may 2024 yil, 21-30",
-    absOtm: 540,
+    
     chuqurlik: 19.079,
     pH: 6.63,
     tC: 15.03,
@@ -299,7 +299,7 @@ const waterData = [
   {
     id: 8,
     sana: "22-may 2024 yil, 2-30",
-    absOtm: 540,
+    
     chuqurlik: 19.162,
     pH: 6.63,
     tC: 15.03,
@@ -309,7 +309,7 @@ const waterData = [
   {
     id: 9,
     sana: "22-may 2024 yil, 9-30",
-    absOtm: 540,
+    
     chuqurlik: 19.245,
     pH: 6.62,
     tC: 15.04,
@@ -319,7 +319,7 @@ const waterData = [
   {
     id: 10,
     sana: "22-may 2024 yil, 15-30",
-    absOtm: 540,
+    
     chuqurlik: 19.411,
     pH: 6.61,
     tC: 15.04,
@@ -329,7 +329,7 @@ const waterData = [
   {
     id: 11,
     sana: "22-may 2024 yil, 21-30",
-    absOtm: 540,
+    
     chuqurlik: 19.494,
     pH: 6.6,
     tC: 15.04,
@@ -339,7 +339,7 @@ const waterData = [
   {
     id: 12,
     sana: "23-may 2024 yil, 2-30",
-    absOtm: 540,
+    
     chuqurlik: 19.577,
     pH: 6.58,
     tC: 15.04,
@@ -349,7 +349,7 @@ const waterData = [
   {
     id: 13,
     sana: "23-may 2024 yil, 9-30",
-    absOtm: 540,
+    
     chuqurlik: 19.66,
     pH: 6.57,
     tC: 15.05,
@@ -359,7 +359,7 @@ const waterData = [
   {
     id: 14,
     sana: "23-may 2024 yil, 15-30",
-    absOtm: 540,
+    
     chuqurlik: 19.743,
     pH: 6.56,
     tC: 15.05,
@@ -369,7 +369,7 @@ const waterData = [
   {
     id: 15,
     sana: "23-may 2024 yil, 21-31",
-    absOtm: 540,
+    
     chuqurlik: 19.826,
     pH: 6.55,
     tC: 15.05,
@@ -379,7 +379,7 @@ const waterData = [
   {
     id: 16,
     sana: "24-may 2024 yil, 2-30",
-    absOtm: 540,
+    
     chuqurlik: 19.909,
     pH: 6.54,
     tC: 15.05,
@@ -389,7 +389,7 @@ const waterData = [
   {
     id: 17,
     sana: "24-may 2024 yil, 9-30",
-    absOtm: 540,
+    
     chuqurlik: 19.992,
     pH: 6.53,
     tC: 15.06,
@@ -399,7 +399,7 @@ const waterData = [
   {
     id: 18,
     sana: "24-may 2024 yil, 15-31",
-    absOtm: 540,
+    
     chuqurlik: 20.074,
     pH: 6.52,
     tC: 15.06,
@@ -409,7 +409,7 @@ const waterData = [
   {
     id: 19,
     sana: "24-may 2024 yil, 21-31",
-    absOtm: 540,
+    
     chuqurlik: 20.157,
     pH: 6.51,
     tC: 15.06,
@@ -419,7 +419,7 @@ const waterData = [
   {
     id: 20,
     sana: "25-may 2024 yil, 2-30",
-    absOtm: 540,
+    
     chuqurlik: 20.24,
     pH: 6.5,
     tC: 15.06,
@@ -429,7 +429,7 @@ const waterData = [
   {
     id: 21,
     sana: "24-may 2024 yil, 9-32",
-    absOtm: 540,
+    
     chuqurlik: 20.324,
     pH: 6.5,
     tC: 15.06,
