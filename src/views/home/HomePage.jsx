@@ -293,7 +293,7 @@ const HomePage = () => {
             Eh 
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">34.5</p>
-          <CustomProgressBar color="#6A9308FF" progress={74.0} />
+          <CustomProgressBar color="#6A90b8FF" progress={74.0} />
         </div>
       </div>
       <div className="main_content_h flex gap-3">
