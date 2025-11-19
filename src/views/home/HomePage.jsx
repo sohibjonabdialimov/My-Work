@@ -17,7 +17,7 @@ const columns = [
     width: "15%",
   },
   {
-    title: "Suv sathi, (sm)",
+    title: "H, (m)",
     dataIndex: "chuqurlik",
     key: "chuqurlik",
   },
@@ -261,35 +261,35 @@ const HomePage = () => {
     <div className="py-4">
       <div className="flex justify-between items-center w-full flex-wrap mb-4 gap-3">
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
-          <h3 className="text-[#a8a8a8] uppercase text-base font-semibold">
-            Temperatura <span>(C&#176;)</span>
+          <h3 className="text-[#6d6d6d] uppercase text-base font-medium">
+            Temperatura <span className="font-bold">(C&#176;)</span>
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">18.6</p>
           <CustomProgressBar color="#6BB2D7FF" progress={50} />
         </div>
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
-          <h3 className="text-[#a8a8a8] uppercase text-base font-semibold">
-            Suv sathi <span className="normal-case">(m)</span>
+          <h3 className="text-[#6d6d6d] uppercase text-base font-medium">
+            Suv sathi <span className="normal-case font-bold">(m)</span>
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">25.6</p>
           <CustomProgressBar color="#00FF00FF" progress={90.3} />
         </div>
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
-          <h3 className="text-[#a8a8a8] uppercase text-base font-semibold">
-            Sho'rlanganligi <span>(TDS)</span>
+          <h3 className="text-[#6d6d6d] uppercase text-base font-medium">
+            Sho'rlanganligi <span className="normal-case font-bold">(TDS)</span>
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">14.4</p>
           <CustomProgressBar color="#82A6F6FF" progress={45.5} />
         </div>
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
-          <h3 className="text-[#a8a8a8] uppercase text-base font-semibold">
-            Ishqor miqdori <span className="normal-case">(pH)</span>
+          <h3 className="text-[#6d6d6d] uppercase text-base font-medium">
+            Ishqor miqdori <span className="normal-case font-bold">(pH)</span>
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">18.6</p>
           <CustomProgressBar color="#6A9308FF" progress={67.0} />
         </div>
         <div className="flex-auto h-[7rem] flex items-center flex-col justify-between text-center bg-[#fff] rounded-lg shadow-lg pt-2">
-          <h3 className="text-[#a8a8a8] text-base font-semibold">
+          <h3 className="text-[#6d6d6d] text-base font-medium">
             Eh 
           </h3>
           <p className="text-2xl text-[#757575FF] font-bold">34.5</p>

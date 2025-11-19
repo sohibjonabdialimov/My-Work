@@ -21,8 +21,8 @@ const Header = () => {
             <i className="fa-solid fa-user text-[#0054AE]"></i>
           </div>
           <div>
-            <h2 className="uppercase text-sm">Abdialimov Sohibjon</h2>
-            <p className="text-xs">Talaba</p>
+            <h2 className="uppercase text-sm">Jamolov X</h2>
+            <p className="text-xs">Doktarant</p>
           </div>
         </div>
       </header>
